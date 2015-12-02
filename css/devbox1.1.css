@@ -10,7 +10,7 @@
 	background: #F9F9F9;
 	color: #7D7D7D;
            width: 100%;
-           height: 500px;
+           height: auto;
            border-top: 1px #7D7D7D solid ;
 }
 .ask-text{
@@ -25,5 +25,35 @@
 	margin-left: 80px;
 }
 .bodylargetext{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:30px;
+	color: #7D7D7D;
+}
+.Destiny{
+	text-align: center;
+	margin-top: 30px;
+}
+.Destiny2{
+	text-align: center;
+	    margin-left: 40%;
+	
+}
+.blocksome{
+	margin-top: 40px;
+	margin-left: 20%;
+}
+.texthire{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:30px;
+	color: #7D7D7D;
+	margin-left: 10%;
+}
+.dtext{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:small;
+	color: #000;
+	margin-left: 20%;
+
+.btn-one{
 	
 }
