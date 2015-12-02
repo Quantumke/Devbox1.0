@@ -1,0 +1,29 @@
+.header-bar{
+	background: #FFFFFF;
+	color: #000000;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	
+}
+.body-large{
+	background: #F9F9F9;
+	color: #7D7D7D;
+           width: 100%;
+           height: 500px;
+           border-top: 1px #7D7D7D solid ;
+}
+.ask-text{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: small;
+	color: #7D7D7D;
+}
+.ask-text-login{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: small;
+	color: #6FDA44;
+	margin-left: 80px;
+}
+.bodylargetext{
+	
+}
