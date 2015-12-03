@@ -1,0 +1,42 @@
+body{
+	background: #F9F9F9;
+}
+*{
+                margin:0;
+                padding:0;
+
+            }
+            .title{
+                width:703px;
+                height:144px;
+                position:absolute;
+                top:0px;
+                left:0px;
+                background:transparent url(../title.png) no-repeat top left;
+            }
+            a.back{
+                background:transparent url(../back.png) no-repeat top left;
+                position:fixed;
+                width:150px;
+                height:27px;
+                outline:none;
+                bottom:0px;
+                left:0px;
+            }
+.logo{
+    margin-top: 10px;
+    background: #ffffff;
+    margin-bottom: 10px;
+
+
+}
+.big{
+    height: auto;
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border-bottom:  1px #7D7D7D solid ;
+
+}
+.biglanding{
+}
