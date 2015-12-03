@@ -91,3 +91,41 @@ body{
 	font-family: 'Open Sans Condensed', sans-serif;
 
 }
+ #myOverlay1 {
+                width:600px;
+                height:400px;
+            }
+  #myOverlay4 {
+                width:600px;
+                height:400px;
+            }
+            #myOverlay2 {
+                width:50%;
+                height:25%;
+                	font-family: 'Open Sans Condensed', sans-serif;
+                margin-left: 30%;
+            }
+            #myOverlay3 {
+
+            }
+.github{
+background: #2B2B2B;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 150px;
+    height: 40px;
+    padding-left: 30px;
+padding-top: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+.github:hover{
+    background: white;
+   color: #7D7D7D;
+    border: 0.5px solid #7D7D7D;
+
+}
+.popupcontent{
+     margin-left: 30px;
+}
