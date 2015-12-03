@@ -51,7 +51,7 @@ body{
     font-size: 70px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .green{
     color: #5BBC2E;
@@ -60,7 +60,7 @@ body{
     color: black;
 }
 .btnlargest{
-    width: 290px;
+   width: 430px;
     height: 50px;
     background: #5BBC2E;
     color: white;
@@ -68,6 +68,7 @@ body{
     padding-left: 160px;
     margin-left: 25%;
     cursor: pointer;
+    margin-top: -60px;
 }
 .btnlargest:hover{
 
