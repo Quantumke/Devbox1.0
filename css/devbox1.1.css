@@ -1,3 +1,15 @@
+body{
+	background: #F9F9F9;
+}
+.hed{
+	background: #FFFFFF;
+	width: 100%;
+	height: auto;
+	margin-bottom: -20px;
+}
+.headerbar{
+	background: #FFFFFF;
+}
 .header-bar{
 	background: #FFFFFF;
 	color: #000000;
@@ -22,7 +34,7 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: small;
 	color: #6FDA44;
-	margin-left: 80px;
+	margin-left: 50px;
 }
 .bodylargetext{
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -52,7 +64,7 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:small;
 	color: #000;
-	margin-left: 25%;
+	margin-left: 30%;
 }
 .tango{
       background: #6FDA44;
@@ -62,11 +74,20 @@
     padding-left: 40px;
     padding-top: 5px;
     cursor: pointer;
-    margin-left: 25%;
+    margin-left: 27%;
 }
 .tango:hover{
 	 background: #008329;
 }
 .or{
 	margin-top: 100px;
+}
+.footer-large{
+	background: #494949;
+	width: 100%;
+	height: 80px;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+
 }
