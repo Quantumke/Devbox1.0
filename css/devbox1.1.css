@@ -16,6 +16,7 @@ body{
 	width: 100%;
 	height: auto;
 	margin-top: 10px;
+    margin-bottom: 20px;
 	
 }
 .body-large{
@@ -36,6 +37,36 @@ body{
 	color: #6FDA44;
 	margin-left: 50px;
 }
+
+.ask-text-one{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: small;
+	color: #7D7D7D;
+    cursor: pointer;
+}
+.ask-text-login-one{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: small;
+	color: #6FDA44;
+	margin-left: 50px;
+    cursor: pointer;
+}
+
+.ask-text-one:hover{
+   font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #6FDA44;
+	text-decoration-style: wavy;
+
+}
+.ask-text-login-one:hover{
+
+     font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color:  #7D7D7D;
+	text-decoration-style: wavy;
+}
+
 .bodylargetext{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:30px;
@@ -128,4 +159,91 @@ padding-top: 10px;
 }
 .popupcontent{
      margin-left: 30px;
+}
+.menutitlebar{
+background: #494949;
+    height: auto;
+    color: white;
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+.menuitem{
+   cursor: pointer;
+}
+.ltext-one{
+   height: auto;
+    color:  #494949;
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+.profile{
+
+}
+.titleprofile{
+    font-size: 40px;
+}
+.textyprofile{
+    font-size: 15px;
+}
+.btntexty{
+    background: #6FDA44;
+    height: 40px;
+    width: 100px;
+    color: white;
+     font-family: 'Open Sans Condensed', sans-serif;
+     text-align: center;
+}
+.textylarge{
+   margin-left: 25%;
+}
+.tutslarge{
+      font-family: 'Open Sans Condensed', sans-serif;
+      color:  #494949;
+
+}
+.helptexttuts{
+  border-top: 0.5px solid  #494949;
+    margin-top: 10px;
+     margin-bottom: 10px;
+    font-size: 20px;
+}
+.tutssmall{
+    margin-top: 20px;
+      font-family: 'Open Sans Condensed', sans-serif;
+    background: #fff;
+    height: 150px;
+    margin-bottom: 20px;
+
+}
+.circular {
+	width: 75px;
+	height: 66%;
+	border-radius: 37.5px;
+	-webkit-border-radius: 37.5px;
+	-moz-border-radius: 37.5px;
+	background: url(../img/index.jpeg) no-repeat;
+	}
+.name{
+  position: absolute;
+left: 22%;
+bottom: 27%;
+}
+.profilebtn{
+color:  #6FDA44;
+cursor: pointer;
+}
+.profilebtn:hover{
+    font-size:15px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+.separator{
+    color: #F9F9F9;
+}
+.footerhome{
+background: #494949;
+       font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 75px;
+    margin-top: 10px;
 }
