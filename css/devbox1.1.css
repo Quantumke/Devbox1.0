@@ -51,6 +51,13 @@ body{
 	margin-left: 50px;
     cursor: pointer;
 }
+.ask-text-login-profile{
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-size: small;
+	color: #6FDA44;
+	margin-left: 50px;
+    cursor: pointer;
+}
 
 .ask-text-one:hover{
    font-size: 20px;
@@ -60,6 +67,14 @@ body{
 
 }
 .ask-text-login-one:hover{
+
+     font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color:  #7D7D7D;
+	text-decoration-style: wavy;
+}
+
+.ask-text-login-profile:hover{
 
      font-size: 20px;
     text-decoration: underline;
@@ -246,4 +261,120 @@ background: #494949;
     text-align: center;
     height: 75px;
     margin-top: 10px;
+}
+.wst{
+      font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: #494949;
+
+}
+.diff{
+    font-weight:100;
+}
+input[type=checkbox] {
+display:none;
+}
+
+input[type=checkbox] + label
+{
+background: url("") no-repeat;
+background-size: 50%;
+height: 250px;
+width: 250px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input[type=checkbox]:checked + label
+{
+background: url("") no-repeat;
+background-size: 50%;
+height: 250px;
+width: 250px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+.html5:hover{
+    border: 0.1px solid #6FDA44;
+}
+.html5{
+  background: url(../img/language-html5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.js:hover{
+    border: 0.1px solid #6FDA44;
+}
+
+.js{
+  background: url(../img/language-javascript.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.android:hover{
+    border: 0.1px solid #6FDA44;
+}
+.android{
+  background: url(../img/android.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ios:hover{
+    border: 0.1px solid #6FDA44;
+}
+.ios{
+  background: url(../img/apple-ios.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.php:hover{
+    border: 0.1px solid #6FDA44;
+}
+.php{
+  background: url(../img/language-php.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.python:hover{
+    border: 0.1px solid #6FDA44;
+}
+.python{
+  background: url(../img/language-python.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.linux:hover{
+    border: 0.1px solid #6FDA44;
+}
+.linux{
+  background: url(../img/linux.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.chash:hover{
+    border: 0.1px solid #6FDA44;
+}
+.chash{
+  background: url(../img/language-csharp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.btnprofile{
+    height: 40px;
+    background: #6FDA44;
+      font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+
+}
+.btnprofilelarge{
+    padding-left: 25%;
+    cursor: pointer;
+}
+.btnprofile:hover{
+    background: #008329;
 }
