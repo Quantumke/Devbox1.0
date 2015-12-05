@@ -266,10 +266,12 @@ background: #494949;
       font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
     color: #494949;
+    margin-left: 30%;
 
 }
 .diff{
     font-weight:100;
+    margin-left: 30%;
 }
 input[type=checkbox] {
 display:none;
@@ -372,9 +374,12 @@ padding: 0 0 0 0px;
 
 }
 .btnprofilelarge{
-    padding-left: 25%;
+   padding-left: 30%;
     cursor: pointer;
 }
 .btnprofile:hover{
     background: #008329;
+}
+.bpl{
+  margin-left: 15%;
 }
