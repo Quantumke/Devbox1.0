@@ -22,7 +22,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
+ <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/switchery.min.css">
+  <script type="text/javascript" src="js/switchery.min.js"></script>
 </head>
 
 <body>
@@ -52,100 +54,84 @@
                 <div class="col s12 m12 l12">
 
 
-                <div class="container">
-        <div class="flat-form" style="width:100%">
-            <ul class="tabsc">
-                <li>
+               <div id="wrapper">
 
-                </li>
-                <li style="padding-left: 30%;
-padding-top: 10px;">
-                  <img src="img/logo.png" height="20" width="20"> DevBox
-                </li>
-                <li>
+  <h1>Portfolio Items</h1>
 
-                </li>
-            </ul>
-            <div id="login" class="form-action show">
-                <h1>ADD A PROJECT</h1>
-                <p>
-                    Remember merit gets you there. The More the Merrier  </p>
-               <form>
-                    <ul>
-                        <li>
-                            <input type="text" placeholder="Project Title"   </li>
+  <form onsubmit="return false">
+  <div class="col-2">
+    <label>
+      Name
+      <input placeholder="What is your full name?" id="name" name="name" tabindex="1">
+    </label>
+  </div>
+  <div class="col-2">
+    <label>
+      Company
+      <input placeholder="Where do you currently work?" id="company" name="company" tabindex="2">
+    </label>
+  </div>
+
+  <div class="col-3">
+    <label>
+      Phone Number
+      <input placeholder="What is the best # to reach you?" id="phone" name="phone" tabindex="3">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Email
+      <input placeholder="What is your e-mail address?" id="email" name="email" tabindex="4">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Availability
+      <select tabindex="5">
+        <option>5-15 hrs per week</option>
+        <option>15-30 hrs per week</option>
+        <option>30-40 hrs per week</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="col-4">
+    <label>
+      Skills
+      <input placeholder="List a few of your primary skills" id="skills" name="skills" tabindex="6">
+    </label>
+  </div>
+  <div class="col-4">
+    <label>
+      Yrs Experience
+      <input placeholder="How many years of experience?" id="experience" name="experience" tabindex="7">
+    </label>
+  </div>
+  <div class="col-4">
+    <label>Contact References?</label>
+    <center style="position:relative; margin-bottom:8px;"><input type="checkbox" class="js-switch"></center>
+  </div>
+  <div class="col-4 switch">
+    <label>E-mail Updates?</label>
+    <center style="position:relative;margin-bottom:8px;"><input type="checkbox" class="js-switch"></center>
+  </div>
+
+  <div class="col-submit">
+    <button class="submitbtn">Submit Form</button>
+  </div>
+
+  </form>
+  </div>
+<script type="text/javascript">
+var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+elems.forEach(function(html) {
+  var switchery = new Switchery(html);
+});
+</script>
 
 
-                         <li>
-                           <textarea cols="30">DEscription</textarea>
-                        </li>
 
-
-
-
-                         <li>
-                            <input type="text" placeholder="Email" />
-                        </li>
-                         <li>
-                            <input type="text" placeholder="Username" />
-                        </li>
-                         <li>
-                            <input type="text" placeholder="Country" />
-                        </li>
-
-
-                        <li>
-
-                              <input type="submit" value=" Save" class="button" />
-                        </li>
-                    </ul>
-                </form>
-            </div>
-
-            <div id="register" class="form-action hide">
-                <h1>Register</h1>
-                <p>
-                    You should totally sign up for our super awesome service.
-                    It's what all the cool kids are doing nowadays.
-                </p>
-                <form>
-                    <ul>
-                        <li>
-                            <input type="text" placeholder="Username" />
-                        </li>
-                        <li>
-                            <input type="password" placeholder="Password" />
-                        </li>
-                        <li>
-                            <input type="submit" value="Sign Up" class="button" />
-                        </li>
-                    </ul>
-                </form>
-            </div>
-            <!--/#register.form-action-->
-            <div id="reset" class="form-action hide">
-                <h1>Reset Password</h1>
-                <p>
-                    To reset your password enter your email and your birthday
-                    and we'll send you a link to reset your password.
-                </p>
-                <form>
-                    <ul>
-                        <li>
-                            <input type="text" placeholder="Email" />
-                        </li>
-                        <li>
-                            <input type="text" placeholder="Birthday" />
-                        </li>
-                        <li>
-                            <input type="submit" value="Send" class="button" />
-                        </li>
-                    </ul>
-                </form>
-            </div>
-
-        </div>
-    </div>
 
                 </div>
             </div>
