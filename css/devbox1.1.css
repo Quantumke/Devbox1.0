@@ -281,7 +281,7 @@ input[type=checkbox] + label
 {
 background: url("") no-repeat;
 background-size: 50%;
-height: 250px;
+height: 150px;
 width: 250px;
 display:inline-block;
 padding: 0 0 0 0px;
@@ -290,7 +290,7 @@ input[type=checkbox]:checked + label
 {
 background: url("") no-repeat;
 background-size: 50%;
-height: 250px;
+height: 150px;
 width: 250px;
 display:inline-block;
 padding: 0 0 0 0px;
@@ -382,4 +382,39 @@ padding: 0 0 0 0px;
 }
 .bpl{
   margin-left: 15%;
+}
+.emp{
+
+  height: auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+
+
+}
+.emp-tab {
+  height: auto;
+  background: #FFFFFF;
+    color: #494949;
+      border: 0.5px solid #494949;
+
+}
+.empgreen{
+  color: #6FDA44;
+  cursor: pointer;
+}
+.empgrey{
+    color: #494949;
+}
+.empgreen:hover{
+  text-decoration: underline;
+}
+.empborder{
+  border-bottom: 1px solid #494949;
+
+}
+.empred{
+    color:red;
+}
+.empred:hover{
+  text-decoration: underline;
 }
