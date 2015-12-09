@@ -43,7 +43,7 @@ form {
   display: block;
   margin: 30px;
   overflow: hidden;
-  background: #fff;
+/*  background: #fff;*/
   border: 1px solid #e4e4e4;
   border-radius: 5px;
   font-size: 0;
@@ -134,8 +134,8 @@ button {
 button.submitbtn {
   background-image: -moz-linear-gradient(#97c16b, #8ab959);
   background-image: -webkit-linear-gradient(#97c16b, #8ab959);
-  background-image: linear-gradient(#97c16b, #8ab959);
-  border-bottom: 1px solid #648c3a;
+  background-image: linear-gradient(#6FDA44, #6FDA44);
+  border-bottom: 1px solid #6FDA44;;
   cursor: pointer;
   color: #fff;
 }

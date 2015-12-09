@@ -7,7 +7,7 @@ p{
   color:;
 }
 input:focus{
-  background-color:yellow;
+/*  background-color: #6FDA44;*/
 }
 .flat-form {
   background: #5BBC2E;
