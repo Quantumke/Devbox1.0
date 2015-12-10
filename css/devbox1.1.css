@@ -404,6 +404,7 @@ padding: 0 0 0 0px;
 }
 .empgrey{
     color: #494949;
+     font-family: 'Open Sans Condensed', sans-serif;
 }
 .empgreen:hover{
   text-decoration: underline;
